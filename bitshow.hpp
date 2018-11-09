@@ -21,6 +21,9 @@ std::bitset<SIZE_A> bits(A x) {
     return x_bits;
 }
 
+floating_formats::format<double> anatomy(double x);
+floating_formats::format<float> anatomy(float x);
+
 floating_formats::format<double> anatomy(double x) {
     auto x_bits = bits(x);
     std::bitset<1> sign_bit(
