@@ -1,7 +1,7 @@
 #ifndef bitshow_HPP
 #define bitshow_HPP
 #include <bitset>
-
+#include <cstring>
 template <class T>
 struct float_double_integral {
     static constexpr bool value = std::is_same<float, T>::value ||
