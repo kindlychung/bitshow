@@ -17,14 +17,14 @@ static_assert(
 
 namespace bitshow {
 
-unsigned long const float_sign_mask = 0b10000000000000000000000000000000;
-unsigned long const float_exponent_mask = 0b01111111100000000000000000000000;
-unsigned long const float_mantissa_mask = 0b00000000011111111111111111111111;
-unsigned long const double_sign_mask =
+std::bitset<32> const float_sign_mask = 0b10000000000000000000000000000000;
+std::bitset<32> const float_exponent_mask = 0b01111111100000000000000000000000;
+std::bitset<32> const float_mantissa_mask = 0b00000000011111111111111111111111;
+std::bitset<64> const double_sign_mask =
     0b1000000000000000000000000000000000000000000000000000000000000000;
-unsigned long const double_exponent_mask =
+std::bitset<64> const double_exponent_mask =
     0b0111111111110000000000000000000000000000000000000000000000000000;
-unsigned long const double_mantissa_mask =
+std::bitset<64> const double_mantissa_mask =
     0b0000000000001111111111111111111111111111111111111111111111111111;
 
 namespace details {
