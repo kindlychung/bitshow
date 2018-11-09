@@ -1,6 +1,6 @@
 # Bitshow: a c++ library for dissecting floating point numbers
 
-Example:
+## Example:
 
 ```cpp
 #include <bitset>
@@ -21,3 +21,7 @@ int main() {
     return 0;
 }
 ```
+
+## Use this package
+
+`buckaroo install github+kindlychung/bitshow`
