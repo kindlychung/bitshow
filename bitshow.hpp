@@ -60,7 +60,7 @@ std::bitset<sizeof(A) * 8> bits(A x) {
     static_assert(float_double_integral<A>::value);
     unsigned_integer_of_same_size<A> x_as_uint = 0;
     std::memcpy(&x_as_uint, &x, sizeof(A));
-    std::bitset<B> x_bits(x_as_uint);
+    std::bitset<sizeof(A)> x_bits(x_as_uint);
     return x_bits;
 }
 
