@@ -55,7 +55,7 @@ using unsigned_integer_of_same_size =
 using uint_equiv_float = unsigned_integer_of_same_size<float>;
 using uint_equiv_double = unsigned_integer_of_same_size<double>;
 
-template <typename A, unsigned int B>
+template <typename A>
 std::bitset<sizeof(A) * 8> bits(A x) {
     static_assert(float_double_integral<A>::value);
     unsigned_integer_of_same_size<A> x_as_uint = 0;
