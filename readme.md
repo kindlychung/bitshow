@@ -24,4 +24,9 @@ int main() {
 
 ## Use this package
 
-`buckaroo install github+kindlychung/bitshow`
+```sh
+# add remote
+conan remote add jzien https://api.bintray.com/conan/jzien/conan 
+# install
+conan install bitshow/1.0.0@kindlychung/dev -r jzien
+```
