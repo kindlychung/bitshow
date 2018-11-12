@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbitshow.a  CMakeFiles/bitshow.dir/bitshow.cpp.o CMakeFiles/bitshow.dir/CMakeFiles/3.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp.o
+/usr/bin/ranlib libbitshow.a
