@@ -1,3 +1,0 @@
-/home/kaiyin/cProjects/bitshow/src/build/CMakeFiles/rebuild_cache.dir
-/home/kaiyin/cProjects/bitshow/src/build/CMakeFiles/bitshow.dir
-/home/kaiyin/cProjects/bitshow/src/build/CMakeFiles/edit_cache.dir

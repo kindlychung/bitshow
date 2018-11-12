@@ -2,6 +2,12 @@ from conans import ConanFile, CMake
 
 
 class BitshowConan(ConanFile):
+    scm = {
+        "type": "git",
+        "subfolder": "hello",
+        "url": "auto",
+        "revision": "auto"
+    }
     name = "bitshow"
     version = "1.0.0"
     license = "MIT"
@@ -13,7 +19,7 @@ class BitshowConan(ConanFile):
     options = {"shared": [True, False]}
     default_options = "shared=False"
     generators = "cmake"
-    exports_sources = "src/*.cpp", "src/*.hpp"
+    exports_sources = "src/*.cpp", "src/*"
 
     def build(self):
         cmake = CMake(self)

@@ -3,3 +3,5 @@
 /buckaroo/
 .buckconfig.local
 BUCKAROO_DEPS
+src/build
+test_package/build
