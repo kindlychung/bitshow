@@ -1,7 +1,7 @@
-#include "bitshow.hpp"
-#include "details.hpp"
-#include "masks.hpp"
-#include "types.hpp"
+#include "bitshow.h"
+#include "details.h"
+#include "masks.h"
+#include "types.h"
 
 namespace bitshow {
 floating_formats::format<double> anatomy(double x) {

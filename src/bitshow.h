@@ -3,9 +3,9 @@
 
 #include <bitset>
 #include <cstring>
-#include "details.hpp"
-#include "ieee_format.hpp"
-#include "types.hpp"
+#include "details.h"
+#include "ieee_format.h"
+#include "types.h"
 
 namespace bitshow {
 

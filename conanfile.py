@@ -4,12 +4,12 @@ from conans import ConanFile, CMake
 class BitshowConan(ConanFile):
     scm = {
         "type": "git",
-        "subfolder": "hello",
+        "subfolder": "bitshow",
         "url": "auto",
         "revision": "auto"
     }
     name = "bitshow"
-    version = "1.0.0"
+    version = "2.0.0"
     license = "MIT"
     author = "kaiyin kindlychung@gmail.com"
     url = "https://github.com/kindlychung/bitshow"

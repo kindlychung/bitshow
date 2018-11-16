@@ -1,6 +1,6 @@
+#include <bitshow.h>
+#include <ieee_format.h>
 #include <bitset>
-#include <bitshow.hpp>
-#include <ieee_format.hpp>
 #include <iomanip>
 #include <iostream>
 
